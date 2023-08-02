@@ -6,11 +6,11 @@
 function odd_even(num) {
   if (num === 0) {
     return console.log("Not a even or odd number");
-  } else if (num /2 === 0) {
+  } else if (num % 2 === 0) {
     return console.log("Even number");
   } else {
     return console.log("Odd number");
   }
 }
 
-odd_even(2);
+odd_even(50);
